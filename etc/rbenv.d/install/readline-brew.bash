@@ -1,4 +1,4 @@
-if command -v brew >/dev/null; then
+if command -v brew >/dev/null && [[ $1 != rbx* ]]; then
   before_install set_up_brew_readline
 fi
 
