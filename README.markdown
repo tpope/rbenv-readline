@@ -1,3 +1,8 @@
+This plugin's behavior has been [made standard][patch] in [ruby-build][],
+rendering it obsolete.
+
+[patch]: https://github.com/sstephenson/ruby-build/commit/94c15a54f0a804d5deeaf636c9666bfea796cd28
+
 # Automatically link rbenv Ruby installs to readline on OS X
 
 OS X ships with [editline][] rather than [readline][], and by default any Ruby
